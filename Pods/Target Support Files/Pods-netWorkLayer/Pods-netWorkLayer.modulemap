@@ -1,0 +1,6 @@
+framework module Pods_netWorkLayer {
+  umbrella header "Pods-netWorkLayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
