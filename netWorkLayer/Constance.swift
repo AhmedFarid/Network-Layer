@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+
+import Foundation
+
+    
+struct ErrorMessage {
+    static let genericError = "Something went wrong please try again later"
+}
