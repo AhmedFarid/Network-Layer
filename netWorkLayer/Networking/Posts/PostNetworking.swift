@@ -17,18 +17,18 @@ extension UsersNetworking: TargetType {
     var baseURL: String {
         switch self {
         case .getUsers:
-            return "https://reqres.in/api"
+            return "https://jsonplaceholder.typicode.com"
         default:
-            return "https://reqres.in/api"
+            return "https://jsonplaceholder.typicode.com"
         }
     }
     
     var path: String {
         switch self {
         case .getUsers:
-            return "/employees"
+            return "/posts"
         case .createUser:
-            return "/employees"
+            return "/posts"
         }
     }
     
